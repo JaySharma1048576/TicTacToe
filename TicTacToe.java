@@ -42,6 +42,7 @@ public class TicTacToe extends Frame implements MouseListener
     public void paint(Graphics g)
     {
         setSize(4*square,4*square+50);
+        g.setColor(Color.white);
         g.fillRect(0, 0, 4*square, 50+4*square);
         for(int i=0;i<=2;i++)
             for(int j=0;j<=2;j++)
